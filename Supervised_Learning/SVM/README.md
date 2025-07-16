@@ -2,7 +2,6 @@
 
 This project applies Support Vector Machine (SVM) classification techniques to predict customer responses to a "gold" membership offer made via phone calls. The goal is to build a predictive model based on customer demographic and behavioral data.
 
----
 
 ## 🧭 Project Overview
 
@@ -11,7 +10,7 @@ The **target variable** is `"Respuesta"`:
 - `1` = accepted the offer  
 - `0` = declined the offer
 
----
+
 
 ## 🧱 Project Structure
 
@@ -48,7 +47,6 @@ The **target variable** is `"Respuesta"`:
   - **Classification Report**
 - Visualizations: ROC curve and confusion matrix heatmap.
 
----
 
 ## 🛠️ Tools and Technologies
 
@@ -57,7 +55,6 @@ The **target variable** is `"Respuesta"`:
   - `matplotlib`, `seaborn` – Data visualization
   - `scikit-learn` – Preprocessing, SVM, metrics, model tuning
 
----
 
 ## 🧪 How to Use
 
@@ -65,14 +62,12 @@ The **target variable** is `"Respuesta"`:
 2. Install the dependencies
 3. Run the notebook
    
----
 
 ## 💡 Insights and Results
 - Best accuracy was achieved using the RBF kernel with tuned C and gamma values.
 - Key predictive features included income, purchase frequency, and age.
 - Preprocessing (especially handling outliers and scaling) had a strong impact on performance.
 
----
 
 ## 🎯 Applications
 This classification approach is useful for:
@@ -80,13 +75,11 @@ This classification approach is useful for:
 - Customer segmentation
 - Optimizing promotional strategies
 
----
-
 ## 👤 Author
 Francesca Tuninetti
 www.linkedin.com/in/tuninettifrancesca
 
----
+
 
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
