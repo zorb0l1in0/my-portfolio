@@ -1,67 +1,63 @@
-# 📈 Time Series Analysis of Log Returns
+# Time Series Analysis of Log Returns
 
-This project focuses on the analysis of financial time series using **logarithmic returns (log returns)**. Log returns are commonly used in finance to normalize price changes and simplify calculations involving compounded returns.
+This project presents a detailed analysis of financial time series data using the Log Return method. The analysis aims to provide insights into the behavior of asset returns, volatility patterns, and their statistical properties through univariate, multivariate, and panel data approaches.
 
-## 🔍 Objective
 
-To explore the statistical and temporal properties of a financial asset through log return transformation, and to analyze:
-- Stationarity
-- Volatility
-- Trends and seasonality
-- Correlation structure
-- Autoregressive behavior
+## Overview
 
-## 🛠️ Tools & Technologies
+The project focuses on:
 
-- Python  
-- Pandas & NumPy  
-- Matplotlib & Seaborn  
-- Statsmodels  
-- Scikit-learn (for regression and ML, if used)
+* Calculating and interpreting Log Returns.
+* Conducting exploratory data analysis (EDA) to understand data distribution, trends, and patterns.
+* Implementing statistical tests for stationarity.
+* Visualizing volatility clustering in financial returns.
+* Modeling return series using statistical methods such as ARIMA/GARCH.
 
-## 📂 Contents
+## Project Structure
 
-- `Analisis_de_serie_temporal_(LogReturn).ipynb`: main notebook containing all steps of the analysis, from data loading to visualization and statistical testing.
+The analysis is organized into clear, sequential steps:
 
-## 📊 Analysis Steps
+1. **Data Loading and Preprocessing**: Initial handling, cleansing, and processing of raw financial data.
+2. **Exploratory Data Analysis (EDA)**: Descriptive statistics and visualization to understand underlying patterns.
+3. **Log Return Computation**: Calculation and interpretation of log returns.
+4. **Stationarity Tests**: Statistical methods (e.g., Augmented Dickey-Fuller test) to confirm time series properties.
+5. **Volatility Analysis**: Identification and visualization of volatility clustering.
+6. **Modeling and Forecasting**: Application of ARIMA/GARCH models to predict future returns and volatility.
 
-1. **Data Preprocessing**:  
-   - Load financial time series (e.g., stock prices)
-   - Clean and format the data
+## Tools and Technologies
 
-2. **Log Return Calculation**:  
-   \[
-   \text{Log Return}_t = \log\left(\frac{P_t}{P_{t-1}}\right)
-   \]
+* **Python**
 
-3. **Exploratory Data Analysis**:
-   - Time series plotting
-   - Distribution of log returns
-   - Rolling statistics
+  * `pandas` for data manipulation
+  * `numpy` for numerical operations
+  * `matplotlib` and `seaborn` for visualization
+  * `statsmodels` and `arch` for statistical modeling
 
-4. **Stationarity Testing**:
-   - Augmented Dickey-Fuller (ADF)
-   - KPSS test
+## How to Use
 
-5. **Autocorrelation & Partial Autocorrelation**:
-   - ACF/PACF plots
-   - Lag structure analysis
+* Clone or download the repository.
+* Install dependencies listed above.
+* Run the Jupyter notebook provided to reproduce analysis steps and visualizations.
 
-6. **Volatility and Risk**:
-   - Rolling standard deviation
-   - Value at Risk (optional)
+## Insights and Results
 
-## 📌 Key Learnings
+* Demonstrated volatility clustering indicating periods of high and low volatility.
+* Verified stationarity in the log return series, critical for modeling and forecasting.
+* Provided robust models (ARIMA/GARCH) to forecast returns and volatility effectively.
 
-Through this project, I deepened my understanding of:
-- How log returns behave over time
-- Why stationarity is important for modeling
-- How to prepare financial time series for forecasting
+## Applications
 
-## 📷 Example Plot
+This analysis is particularly useful for:
 
-![Log Return Plot](https://your-image-link-if-any.png)
+* Traders and investors looking to understand risk and return dynamics.
+* Financial analysts conducting market risk assessments.
+* Researchers studying financial market behavior.
 
-## 📜 License
+## Author
 
-This project is open source and available under the [MIT License](LICENSE).
+* \[Francesca Tuninetti]
+* \[www.linkedin.com/in/tuninettifrancesca]
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
