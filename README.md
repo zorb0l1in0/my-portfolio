@@ -34,5 +34,5 @@ Passionate about sharing knowledge and making data science accessible through cl
 
 Feel free to reach out for collaboration, discussion, or simply to connect!
 
-* [LinkedIn](www.linkedin.com/in/tuninettifrancesca)
-* [Email](tuninettifrancesca@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/tuninettifrancesca)
+- [Email](mailto:tuninettifrancesca@gmail.com)
