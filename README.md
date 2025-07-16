@@ -28,7 +28,9 @@ I have 5 years of experience as an interactive e-learning module developer for a
 
 ## 🔥 Interests
 
-Passionate about sharing knowledge and making data science accessible through clear communication and practical examples. I love working on innovative solutions, especially in the fields of RAG (Retrieval-Augmented Generation), financial modeling, and knowledge graphs.
+I enjoy blending online pursuits with offline pleasures—diving into books, savoring the tranquility of island life, and cherishing family moments. Professionally, I'm passionate about exploring the cutting-edge of GenIA and Retrieval-Augmented Generation (RAG) techniques. 
+
+I'm also deeply committed to supporting and inspiring individuals navigating career transitions, believing strongly in the transformative power of embracing new paths.
 
 ## 📫 Connect with Me
 
